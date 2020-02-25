@@ -2,7 +2,7 @@ Public releases for Bitcoin software modifications for different projects. If yo
 
 Links to modified codes:
 
- - [ICBC2020](https://github.com/nislab/bitcoin-releases/tree/icbc2020)
+ - [ICBC2020](https://github.com/nislab/bitcoin-releases/tree/icbc2020) (Characterizing Orphan Transactions in the Bitcoin Network)
  ```
  @inproceedings{imtiaz2020orphan,
   title={Characterizing Orphan Transactions in the Bitcoin Network},
@@ -12,7 +12,7 @@ Links to modified codes:
   organization={IEEE}
 }
  ```
- - [ICBC2019](https://github.com/nislab/bitcoin-releases/tree/icbc2019)
+ - [ICBC2019](https://github.com/nislab/bitcoin-releases/tree/icbc2019) ([Churn in the Bitcoin Network: Characterization and Impact](https://doi.org/10.1109/BLOC.2019.8751297))
  ```
 @inproceedings{imtiaz2019churn,
   title={Churn in the Bitcoin Network: Characterization and impact},
