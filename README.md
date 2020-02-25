@@ -1,3 +1,19 @@
+This repository contains log-to-file system related additions in the Bitcoin core (v0.18) that was used in our ICBC2020 publication.
+
+-----
+If you find the content of this repository helpful, please cite
+```
+@inproceedings{imtiaz2020orphan,
+  title={Characterizing Orphan Transactions in the Bitcoin Network},
+  author={Imtiaz, Muhammad Anas and Starobinski, David and Trachtenberg, Ari},
+  booktitle={2020 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)},
+  year={2020},
+  organization={IEEE}
+}
+```
+-----
+
+
 Bitcoin Core integration/staging tree
 =====================================
 
