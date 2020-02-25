@@ -1,3 +1,19 @@
+This repository contains log-to-file system related additions in the Bitcoin core (v0.15) that was used in our ICBC2019 publication.
+
+-----
+If you find the content of this repository helpful, please cite
+```
+@inproceedings{imtiaz2019churn,
+  title={Churn in the Bitcoin Network: Characterization and impact},
+  author={Imtiaz, Muhammad Anas and Starobinski, David and Trachtenberg, Ari and Younis, Nabeel},
+  booktitle={2019 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)},
+  pages={431--439},
+  year={2019},
+  organization={IEEE}
+}
+```
+-----
+
 Bitcoin Core integration/staging tree
 =====================================
 
