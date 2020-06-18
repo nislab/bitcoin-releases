@@ -95,7 +95,7 @@ enum INVEVENT
 #endif
 
 #if FALAFEL_SENDER
-    const std::vector<std::string> WhiteListedSubnets = {"128.197.128",};
+    const std::vector<std::string> WhiteListedSubnets = {"xxx.yyy.zzz",};
     bool isNodeInWhiteListedSubnets(std::string node);
 #endif
 
