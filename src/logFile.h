@@ -47,19 +47,34 @@ enum INVEVENT
     AFTER,
 };
 
+// log addresses of connected peers to file. Set to 1 to enable
 #define LOG_NEIGHBOR_ADDRESSES          0
+// log CPU usage of specific portion of code. Set to 1 to enable
 #define LOG_CPU_USAGE                   0
+// enable MempoolSync. All MempoolSync related operations require it to be enabled. Set to 1 to enable
 #define ENABLE_FALAFEL_SYNC             0
+// enable pinging a peer before sending a MempoolSync message to it. Set to 1 to enable
 #define ENABLE_FALAFEL_PING             0
+// note: current node can either be a MempoolSync sender or receiver, not both
+// configure current node as a MempoolSync sender. Set to 1 to enable
 #define FALAFEL_SENDER                  0
+// configure current node as a MempoolSync receiver. Set to 1 to enable
 #define FALAFEL_RECEIVER                0
+// a special MempoolSync operation that randomly sends a greater fraction of the mempool in a message. Set to 1 to enable
 #define ENABLE_SPECIAL_SYNC             0
+// a special MempoolSync operation that sends the content of the entire mempool to a peer once it is connected. Set to 1 to enable
 #define SYNC_ENTIRE_MEMPOOL_AT_CONNECT  0
+// log all transactions announced by peers. Set to 1 to enable
 #define LOG_TRANSACTION_INVS            0
+// log all transactions received from peers. Set to 1 to enable
 #define LOG_TRANSACTIONS                0
+// log transactions that become orphans. Set to 1 to enable 
 #define LOG_ORPHAN_TRANSACTIONS         0
+// log transactions received in a MempoolSync message. Set to 1 to enable
 #define LOG_FALAFEL_TRANSACTIONS        0
+// log transactions received in a MempoolSync message that become orphans. Set to 1 to enable
 #define LOG_FALAFEL_ORPHAN_TRANSACTIONS 0
+// log transactions that are relayed to peers (EXPERIMENTAL). Set to 1 to enable
 #define LOG_TX_RELAY                    0
 
 #if !ENABLE_FALAFEL_SYNC && (FALAFEL_SENDER || FALAFEL_RECEIVER)
